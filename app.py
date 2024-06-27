@@ -16,6 +16,6 @@ ax[0].set_title("X1", size = 14)
 ax[1].hist(X[::,1], color = 'orange', alpha = 0.6)
 ax[1].spines['top'].set_visible(False)
 ax[1].spines['right'].set_visible(False)
-ax[1].set_title("New column", size = 14)
+ax[1].set_title("New column X2", size = 14)
 
 st.pyplot(fig)
